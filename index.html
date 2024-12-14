@@ -13,7 +13,20 @@
         <a href="index.html"><h1>Моя семья - мой космос</h1></a>
         <div id="topvhod">
             <a  id="reg" href="registration.html"><button>Регистрация</button></a>
-            <a  id="vhod" href="#avt0"><button>Авторизация</button></a>
+            <button id="vhod"
+            onclick="overLayMenu.showModal()"
+            >
+            Авторизация
+        </button>
+        <dialog id="overLayMenu">
+            <form method="dialog">
+                <a id="x" href="index.html">X</a>
+                <h2>Авторизация</h2>
+                <input type="email" required minlength="8" placeholder="email">
+                <input type="password" required minlength="8" placeholder="Пароль">
+                <a href="index.html"><button>Войти</button></a>
+                <a href="pasvost.html"><button type="button">Восстановить пароль</button></a>
+            </form>
         </div>
         <nav id="hed">
             <a  id="kabinet" href=""><button>Личный кабинет</button></a>

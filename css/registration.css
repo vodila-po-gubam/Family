@@ -53,14 +53,14 @@ header h1:hover{
     cursor: pointer;
     
 }
-#vhod button{
+#vhod {
     font-size: 32px;
     background-color: rgb(83, 153, 124);
     border: 3px solid aliceblue;
     border-radius: 10px;
     color: aliceblue;
 }
-#vhod button:hover{
+#vhod:hover{
     transition: 0.5s;
     background-color: rgb(55, 173, 158);
     color: rgb(219, 255, 154);
@@ -158,6 +158,12 @@ header h1:hover{
     color: aliceblue;
     margin-bottom: 4%;
     margin-top: 4%;
+}
+#m2 button:hover{
+    transition: 0.5s;
+    background-color: rgb(55, 173, 158);
+    color: rgb(219, 255, 154);
+    cursor: pointer;
 }
 footer{
     border-top: 5px solid rgb(83, 153, 124);
@@ -290,4 +296,58 @@ footer nav{
     margin-left: 1%;
     border: 3px solid rgb(83, 153, 124);
     border-radius: 10px;
+}
+dialog{
+    margin-left: 30%;
+    margin-top: 20%;
+    width: 40%;
+    border: 5px solid rgb(83, 153, 124);
+    border-radius: 10px;
+    
+}
+#x{
+    font-size: 32px;
+    color: aliceblue;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 15px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    opacity: 1;
+}
+dialog h2{
+    color: aliceblue;
+    text-align: center;
+    border: 0px;
+    font-size: 32px;
+    opacity: 1;
+}
+dialog input{
+    font-size: 32px;
+    color: aliceblue;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 23%;
+    opacity: 1;
+}
+dialog button{
+    font-size: 32px;
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+    color: aliceblue;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 50%;
+    margin-left: 24.5%;
+    background-color: rgb(55, 173, 158);
+    opacity: 1;
+}
+dialog button:hover{
+    transition: 0.5s;
+    color: rgb(219, 255, 154);
+    cursor: pointer;
+    background-color: rgb(83, 153, 124);
+    opacity: 1;
 }
