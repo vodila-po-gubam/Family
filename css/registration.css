@@ -124,15 +124,15 @@ header h1:hover{
     font-size: 32px;
     color: aliceblue;
     border-bottom: 5px solid rgb(83, 153, 124);
-    margin-top: 5%;
+    margin-top: 2%;
 }
 #m2{
     border: 3px solid rgb(83, 153, 124);
     border-radius: 10px;
     text-align: center;
     width: 25%;
-    margin-left: 35%;
-    margin-top: 10%;
+    margin-left: 38%;
+    margin-top: 2%;
     border-bottom: 5px solid rgb(83, 153, 124);
 }
 #em{
@@ -157,10 +157,11 @@ header h1:hover{
     background-color: rgb(83, 153, 124);
     color: aliceblue;
     margin-bottom: 4%;
+    margin-top: 4%;
 }
 footer{
     border-top: 5px solid rgb(83, 153, 124);
-    margin-top: 15%;
+    margin-top: 4%;
 }
 #tele{
     margin: 3%;
@@ -218,8 +219,11 @@ footer nav{
     font-size: 24px;
     margin-bottom: 3%;
     background-color: rgb(83, 153, 124);
-    width: 30%;
+    width: 23%;
     margin-left: 3%;
+    position: absolute;
+    bottom: -16%;
+    left: 20%;
 }
 #avtor h2{
     background-color: rgb(83, 153, 124);
@@ -232,4 +236,58 @@ footer nav{
     transition: 0.5s;
     color: rgb(219, 255, 154);
     cursor: pointer;
+}
+#im{
+    color: aliceblue;
+    font-size: 32px;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 10px;
+    margin-top: 4%;
+}
+#fam{
+    color: aliceblue;
+    font-size: 32px;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 10px;
+    margin-top: 4%;
+}
+#voz{
+    color: aliceblue;
+    font-size: 28px;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 10px;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+#m2 h2{
+    color: aliceblue;
+}
+#pol{
+    color: aliceblue;
+    font-size: 32px;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 10px;
+    margin-top: 4%;
+}
+#ps1{
+    color: aliceblue;
+    font-size: 32px;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 10px;
+    margin-top: 1%;
+}
+#fot{
+    margin-left: 1%;
+    margin-top: 4%;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 10px;
+}
+#sogl1{
+    font-size: 20px;
+    margin-top: 4%;
+}
+#sogl{
+    margin-left: 1%;
+    border: 3px solid rgb(83, 153, 124);
+    border-radius: 10px;
 }
