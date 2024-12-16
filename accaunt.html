@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Восстановление пароля</title>
-    <link rel="stylesheet" href="css\vost.css">
+    <title>vostanodlenie</title>
+    <link rel="stylesheet" href="css\account.css">
     <link rel="icon" type="img/png" sizes="32x32" href="img\favicon\favicon-32x32.png">
 </head>
 <body>
@@ -12,7 +12,7 @@
         <a href="index.html"><img id="logo" src="img\logo.jpg" alt="1"></a>
         <a href="index.html"><h1>Моя семья - мой космос</h1></a>
         <div id="topvhod">
-            <a  id="reg" href="registration.html"><button>Регистрация</button></a>
+            <a  id="reg" href="index.html"><button>Выйти из аккаунта</button></a>
             <button id="vhod"
             onclick="overLayMenu.showModal()"
             >
@@ -38,19 +38,34 @@
     </header>
     <main>
         <div id="m">
-            <h2>Восстановление пароля</h2>
+            <h2>Запись на конкурс</h2>
         </div>
             <div id="m2">
-                <input id="em" type="email" required minlength="8" placeholder="Эл.Почта">
-                <input id="im" type="text" required placeholder="Имя">
-                <input id="fam" type="text" required placeholder="Фамилия">
-                <h2>Дата рождения<input id="voz" type="date" required ></h2>               
-                <input id="pol" type="text" list="pol1" required placeholder="Пол">
+                <input id="pol" type="text" list="pol1" required placeholder="Конкурсы" title="Выберете конкурс">
                 <datalist id="pol1">
-                    <option>Мужской</option>
-                    <option>Женский</option>
+                    <option>Бег в мешках</option>
+                    <option>Эстафета</option>
+                    <option>Полоса препятствий</option>
+                </datalist>            
+                <input id="voz" type="date" required min="2024-07-08" max="2024-07-08" title="Дата проведения">
+                <input id="vr" type="text" required list="vr1" placeholder="Время" title="Время конкурса">
+                <datalist id="vr1">
+                    <option>9:00</option>
+                    <option>10:00</option>
+                    <option>11:00</option>
+                    <option>12:00</option>
+                    <option>13:00</option>
+                    <option>14:00</option>
+                    <option>15:00</option>
+                    <option>16:00</option>
+                    <option>17:00</option>
+                    <option>18:00</option>
+                    <option>19:00</option>
+                    <option>20:00</option>
+                    <option>21:00</option>
                 </datalist>
-                <a href="index.html"><button>Отправить ссылку почту</button></a>
+                <input id="col" type="number" required min="1" max="10" placeholder="кол-во участников" title="Введите число от 1 до 10">
+                <a href="index.html"><button>Принять участие</button></a>
         </div>
     </main>
     <footer>
